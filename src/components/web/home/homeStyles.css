@@ -1,0 +1,20 @@
+.bannersContent {
+    background-size: cover;
+    height: 500px;
+}
+.bannersContent.first {
+    background-image: url('../../../../assets/banner1.png');
+
+}
+.bannersContent.second {
+    background-image: url('../../../../assets/banner2.jpg');
+
+}
+.bannersContent.third {
+    background-image: url('../../../../assets/banner3.jpg');
+
+}
+.bannersContent.fourth {
+    background-image: url('../../../../assets/banner4.jpg');
+
+}
