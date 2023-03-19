@@ -2,19 +2,63 @@
     background-size: cover;
     height: 500px;
 }
+
 .bannersContent.first {
-    background-image: url('../../../../assets/banner1.png');
+    background-image: url('../../../assets/banner1.png');
 
 }
+
 .bannersContent.second {
-    background-image: url('../../../../assets/banner2.jpg');
+    background-image: url('../../../assets/banner2.jpg');
 
 }
+
 .bannersContent.third {
-    background-image: url('../../../../assets/banner3.jpg');
+    background-image: url('../../../assets/banner3.jpg');
 
 }
-.bannersContent.fourth {
-    background-image: url('../../../../assets/banner4.jpg');
 
+.bannersContent.fourth {
+    background-image: url('../../../assets/banner4.jpg');
+
+}
+
+.vision {
+    border: 1px solid #2E82A6B8;
+    border-radius: 10px;
+    box-shadow: 0 94px 138px rgba(0, 0, 0, 0.2), 0 47.0459px 69.0674px rgb(0 0 0 / 15%), 0 28.3382px 41.603px rgb(0 0 0 / 13%), 0 18.1606px 26.6614px rgb(0 0 0 / 11%), 0 11.7703px 17.2797px rgb(0 0 0 / 10%), 0 7.40924px 10.8774px rgb(0 0 0 / 9%), 0 4.25707px 6.24974px rgb(0 0 0 / 7%), 0 1.87365px 2.75067px rgb(0 0 0 / 5%);
+    padding: 10px;
+    background-color: #e1f5fdb8;
+    opacity: 100px;
+}
+
+.visionRow {
+    padding: 10px;
+}
+
+.visionBanner{
+   
+    /* border-radius: 10px; */
+    object-fit: cover;
+    /* box-shadow: 0 94px 138px rgba(0, 0, 0, 0.2), 0 47.0459px 69.0674px rgb(0 0 0 / 15%), 0 28.3382px 41.603px rgb(0 0 0 / 13%), 0 18.1606px 26.6614px rgb(0 0 0 / 11%), 0 11.7703px 17.2797px rgb(0 0 0 / 10%), 0 7.40924px 10.8774px rgb(0 0 0 / 9%), 0 4.25707px 6.24974px rgb(0 0 0 / 7%), 0 1.87365px 2.75067px rgb(0 0 0 / 5%); */
+}
+
+.visionBannerdiv{
+    /* box-shadow: 0 94px 138px rgba(0, 0, 0, 0.2), 0 47.0459px 69.0674px rgb(0 0 0 / 15%), 0 28.3382px 41.603px rgb(0 0 0 / 13%), 0 18.1606px 26.6614px rgb(0 0 0 / 11%), 0 11.7703px 17.2797px rgb(0 0 0 / 10%), 0 7.40924px 10.8774px rgb(0 0 0 / 9%), 0 4.25707px 6.24974px rgb(0 0 0 / 7%), 0 1.87365px 2.75067px rgb(0 0 0 / 5%); */
+    margin: 10px;
+    background-size: cover;
+    background-position: center;
+    height: 220px   ;
+    width: 96% !important;
+    /* background-color: transparent; */
+    /* border: 0; */
+    border-radius: 10px;
+}
+
+.first-banner{
+    background-image: url('../../../assets/vision2.png');
+}
+
+.second-banner{
+    background-image: url('../../../assets/mission.jpg');
 }

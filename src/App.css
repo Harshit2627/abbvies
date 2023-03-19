@@ -1,3 +1,13 @@
 h1{
   margin: 0;
+  font-size: 24px;
+}
+
+p{
+  font-size: 16px;
+}
+
+.body{
+  font-family: "Poppins",sans-serif !important;
+  color: rgb(95, 94, 94);
 }
