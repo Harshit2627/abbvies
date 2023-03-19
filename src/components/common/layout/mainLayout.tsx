@@ -2,6 +2,7 @@ import React from 'react';
 import { ConfigProvider, Layout, Space } from 'antd';
 import GlobalHeader from '../header';
 import { Outlet } from 'react-router-dom';
+import { GlobalFooter } from '../footer';
 
 const { Header, Footer, Content } = Layout;
 
@@ -16,7 +17,9 @@ const MainLayout: React.FC = () => (
         colorBgLayout: '#ffff',
         colorText: "#E2E2E2",
         colorBgTextActive: '#ffff',
-        colorFillContent: "#FFFFFF"
+        colorFillContent: "#FFFFFF",
+        colorLink: "#E2E2E2",
+        colorLinkHover: "#FFFFFF"
       },
     }}
   >
@@ -24,7 +27,7 @@ const MainLayout: React.FC = () => (
     <Layout>
       <Header style={{backgroundColor:"#2E82A6B8",position: 'sticky', top: 0, zIndex: 1, width: '100%' }}  ><GlobalHeader/></Header>
       <Content ><Outlet/></Content>
-      <Footer >Footer</Footer>
+      <Footer style={{backgroundColor:"#2E82A6B8"}}><GlobalFooter/></Footer>
 
     </Layout>
   </Space>
