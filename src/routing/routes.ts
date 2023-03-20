@@ -1,3 +1,7 @@
 export enum AppRoutes  {
-        HOME = "/"
+        HOME = "/",
+        ABOUT_US = "/aboutUs",
+        CONTACT = "/contact",
+        PRODUCTS = "/products",
+        MANUFACTURING = "/manufacturing"
 }

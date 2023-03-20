@@ -19,7 +19,8 @@ const MainLayout: React.FC = () => (
         colorBgTextActive: '#ffff',
         colorFillContent: "#FFFFFF",
         colorLink: "#E2E2E2",
-        colorLinkHover: "#FFFFFF"
+        colorLinkHover: "#FFFFFF",
+        
       },
     }}
   >

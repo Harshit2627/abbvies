@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import {
   AppstoreOutlined,
   MailOutlined,
-  SettingOutlined,
+  GroupOutlined,
+  HomeOutlined
 } from "@ant-design/icons";
 import { Col, MenuProps, Row } from "antd";
 import { Menu } from "antd";
@@ -10,40 +11,49 @@ import { Menu } from "antd";
 const items: MenuProps["items"] = [
   {
     label: "Home",
+    icon: <HomeOutlined />,
     key: "home",
   },
   {
-    label: "Verticals",
+    label: "Products",
     key: "app",
     icon: <AppstoreOutlined />,
     children: [
       {
         type: "group",
-        label: "Orthopedic",
+        label: "Bone Health",
       },
       {
         type: "group",
-        label: "Nutrition and Fitness",
+        label:  "Infections & Resistance",
       },
       {
         type: "group",
-        label: "Genral",
+        label: "Antibiotics",
       },
       {
         type: "group",
-        label: "Group 2",
+        label: "Gastric Discomfort",
       },
+      {
+        type:"group",
+        label: "Performance",
+      },
+      {
+        type: "group",
+        label: "Strength, Immunity & Good Health",
+      }
     ],
   },
   {
     label: "Contact",
     key: "SubMenu",
-    icon: <SettingOutlined />,
+    icon: <MailOutlined/>,
   },
   {
     label: "About Us",
     key: "about",
-    icon: <SettingOutlined />,
+    icon: <GroupOutlined/>,
   },
 ];
 
@@ -61,7 +71,7 @@ const GlobalHeader: React.FC = () => {
             <Col span={10}>
             Logo
             </Col>
-            <Col span={14}><h1 >Company Name</h1></Col>
+            <Col span={14}><h1 >AbbVie - S</h1></Col>
             </Row>
             </Col>
       <Col span={8}>
@@ -69,6 +79,7 @@ const GlobalHeader: React.FC = () => {
           onClick={onClick}
           selectedKeys={[current]}
           mode="horizontal"
+          color="#2E82A6B8"
           items={items}
         />
       </Col>
