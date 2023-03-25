@@ -9,9 +9,9 @@ export const About = () => {
     return (
         <>
             <Row className="visionRow">
-                <Col xs={24} sm={24} md={8} lg={8} xl={8} xxl={8} className="vision body">
+                <Col xs={24} sm={24} md={8} lg={8} xl={8} xxl={8} className="vision fontPrimary">
                     <h1>Vision</h1>
-                    <p className="p visionPara body">
+                    <p className=" visionPara">
                         Our vision states us to be a commercially viable leading
                         pharmaceutical company in providing quality products affordable to
                         all sections in the society. We aspire to be the best health care
@@ -31,9 +31,9 @@ export const About = () => {
                         <img src={vision} height="220" width="96%" className="visionBanner" /> */}
                     </Carousel>
                 </Col>
-                <Col xs={24} sm={24} md={8} lg={8} xl={8} xxl={8} className="vision body">
+                <Col xs={24} sm={24} md={8} lg={8} xl={8} xxl={8} className="vision fontPrimary">
                     <h1>Mission</h1>
-                    <p className="p visionPara body">
+                    <p className="visionPara ">
                         We are responsible to the society, we shall be good, cooperate
                         citizen and will be driven by with ethical standard in our
                         practices. Abbvies Pharmaceuti- cal's prime mission is to protect

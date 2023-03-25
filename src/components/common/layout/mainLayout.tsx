@@ -13,13 +13,14 @@ const MainLayout: React.FC = () => (
       token: {
         // colorPrimary: '#1677FF',
         colorBgBase: '#F1EFEF',
-        colorBgContainer: '#1677FFAC',
+        colorBgContainer: '#FFFFFF',
         colorBgLayout: '#ffff',
         colorText: "#E2E2E2",
         colorBgTextActive: '#ffff',
         colorFillContent: "#FFFFFF",
         colorLink: "#E2E2E2",
         colorLinkHover: "#FFFFFF",
+
         
       },
     }}

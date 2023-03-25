@@ -7,7 +7,23 @@ p{
   font-size: 16px;
 }
 
-.body{
+.fontPrimary{
   font-family: "Poppins",sans-serif !important;
   color: rgb(95, 94, 94);
+}
+.profileImages{
+  border-radius: 50%;
+  box-shadow: 0 94px 138px rgba(0, 0, 0, 0.2),
+  0 47.0459px 69.0674px rgb(0 0 0 / 15%),
+  0 28.3382px 41.603px rgb(0 0 0 / 13%),
+  0 18.1606px 26.6614px rgb(0 0 0 / 11%),
+  0 11.7703px 17.2797px rgb(0 0 0 / 10%),
+  0 7.40924px 10.8774px rgb(0 0 0 / 9%), 0 4.25707px 6.24974px rgb(0 0 0 / 7%),
+  0 1.87365px 2.75067px rgb(0 0 0 / 5%);
+
+}
+
+.badge{
+  margin-top: 4%;
+  margin-left: 2%;
 }

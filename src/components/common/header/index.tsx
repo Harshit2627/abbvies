@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import {
   AppstoreOutlined,
   MailOutlined,
-  GroupOutlined,
+  TeamOutlined,
   HomeOutlined
 } from "@ant-design/icons";
 import { Col, MenuProps, Row } from "antd";
@@ -53,7 +53,7 @@ const items: MenuProps["items"] = [
   {
     label: "About Us",
     key: "about",
-    icon: <GroupOutlined/>,
+    icon: <TeamOutlined/>,
   },
 ];
 

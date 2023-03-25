@@ -1,6 +1,8 @@
 import { Carousel, Col, Row, Space } from "antd";
 import { About } from "./about";
 import "./homeStyles.css";
+import Objectives from "./objective";
+import Team from "./team";
 
 export const Home = () => {
   return (
@@ -24,6 +26,8 @@ export const Home = () => {
         </Col>
       </Row>
       <About />
+      <Objectives/>
+      <Team/>
     </div>
   );
 };
